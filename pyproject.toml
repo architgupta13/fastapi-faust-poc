@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "fastapi-faust-poc"
+version = "0.1.0"
+description = ""
+authors = ["Archit Gupta <gupta.archit13@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fastapi = "0.70.1"
+alembic = "1.6.2"
+fastapi-utils = "0.2.1"
+faust = "^1.10.4"
+loguru = "0.5.3"
+psycopg2-binary = "2.9.1"
+SQLAlchemy = "1.4.2"
+uvicorn = "0.14.0"
+gunicorn = "20.0.4"
+confluent-kafka = "1.7.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+black = "21.5b1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
