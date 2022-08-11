@@ -6,14 +6,14 @@ authors = ["Archit Gupta <gupta.archit13@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.9"
-fastapi = "0.70.1"
+fastapi = {version = "0.70.1", extras = ["all"]}
 alembic = "1.6.2"
 fastapi-utils = "0.2.1"
 faust = "^1.10.4"
 loguru = "0.5.3"
 psycopg2-binary = "2.9.1"
 SQLAlchemy = "1.4.2"
-uvicorn = "0.14.0"
+uvicorn = {version = "0.14.0", extras = ["standard"]}
 gunicorn = "20.0.4"
 confluent-kafka = "1.7.0"
 
